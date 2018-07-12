@@ -10,7 +10,7 @@ const valueToType = value => {
 				newObject[key] = valueToType(value[key]);
 				return newObject;
 			},
-			{},
+			{}
 		);
 	}
 	return typeof value;
