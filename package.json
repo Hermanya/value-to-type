@@ -1,0 +1,29 @@
+{
+	"name": "value-to-type",
+	"version": "0.0.1",
+	"description": "Get schema from data, great for making quick assertions in integration tests.",
+	"license": "MIT",
+	"repository": "hermanya/value-to-type",
+	"author": {
+		"name": "Herman",
+		"email": "hermanstarikov@gmail.com",
+		"url": "https://hermanya.github.io"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.0"
+	}
+}
